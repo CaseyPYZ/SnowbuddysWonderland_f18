@@ -1,0 +1,389 @@
+{
+  "hiro":
+  {
+    "markerId":"hiro",
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":80, "green":80, "blue":80, "opacity":0.2,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":0.02, "depth":1,
+      "red":40, "green":40, "blue":40, "opacity":1
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":90, "green":90, "blue":90, "opacity":1
+    },
+    "objParas":{
+      "asset": "hiro_obj",
+      "mtl":"hiro_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.15
+
+  },
+
+  "zb":
+  {
+    "markerId":"zb",
+
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":150, "green":180, "blue":225, "opacity":0.5,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":0.02, "depth":1,
+      "red":68, "green":116, "blue":161, "opacity":1
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":125, "green":155, "blue":194, "opacity":1
+    },
+    "objParas":{
+      "asset": "monu_obj",
+      "mtl":"monu_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.05
+
+  },
+
+  "jin":
+  {
+    "markerId":"jin",
+
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":255, "green":230, "blue":60, "opacity":0.2,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":0.02, "depth":1,
+      "red":255, "green":230, "blue":60, "opacity":1, "metalness":0.1
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":255, "green":230, "blue":60, "opacity":1
+    },
+    "objParas":{
+      "asset": "jin_obj",
+      "mtl":"jin_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.15
+
+
+  },
+
+  "mu":
+  {
+    "markerId":"mu",
+
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":90, "green":120, "blue":36, "opacity":0.2,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":0.02, "depth":1,
+      "red":90, "green":120, "blue":36, "opacity":1
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":90, "green":120, "blue":36, "opacity":1
+    },
+    "objParas":{
+      "asset": "mu_obj",
+      "mtl":"mu_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.13
+
+  },
+
+  "shui":
+  {
+    "markerId":"shui",
+
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":200, "green":235, "blue":255, "opacity":0.2,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0,"width":0.98, "height":0.08, "depth":0.98,
+      "red":200, "green":235, "blue":255, "opacity":1,
+      "asset":"water", "repeatX":3, "repeatY":3
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":200, "green":235, "blue":255, "opacity":1
+    },
+    "objParas":{
+      "asset": "shui_obj",
+      "mtl":"shui_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.45
+
+  },
+
+  "huo":
+  {
+    "markerId":"huo",
+
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":225, "green":60, "blue":50, "opacity":0.2,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":0.02, "depth":1,
+      "red":225, "green":60, "blue":50, "opacity":1
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":225, "green":60, "blue":50, "opacity":1
+    },
+    "objParas":{
+      "asset": "huo_obj",
+      "mtl":"huo_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.18
+
+  },
+
+  "tu":
+  {
+    "markerId":"tu",
+
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":163, "green":124, "blue":64, "opacity":0.1,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":0.03, "depth":1,
+      "red":163, "green":124, "blue":64, "opacity":1
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":163, "green":124, "blue":64, "opacity":1
+    },
+    "objParas":{
+      "asset": "tu_obj",
+      "mtl":"tu_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.15
+
+  },
+
+  "ming":
+  {
+    "markerId":"ming",
+
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":250, "green":249, "blue":219, "opacity":0.5,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":0.02,"depth":1,
+      "red":250, "green":249, "blue":219, "opacity":1
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":250, "green":249, "blue":219, "opacity":1
+    },
+    "objParas":{
+      "asset": "monu_obj",
+      "mtl":"monu_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.05
+
+  },
+
+  "an":
+  {
+    "markerId":"an",
+
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":25, "green":25, "blue":25, "opacity":0.5,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":0.02, "depth":1,
+      "red":25, "green":25, "blue":25, "opacity":1
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":25, "green":25, "blue":25, "opacity":1
+    },
+    "objParas":{
+      "asset": "monu_obj",
+      "mtl":"monu_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.05
+
+  },
+
+  "xu":
+  {
+    "markerId":"xu",
+
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":164, "green":154, "blue":147, "opacity":0.5,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":0.02, "depth":1,
+      "red":164, "green":154, "blue":147, "opacity":1
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":164, "green":154, "blue":147, "opacity":1
+    },
+    "objParas":{
+      "asset": "monu_obj",
+      "mtl":"monu_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.05
+
+  },
+
+  "shi":
+  {
+    "markerId":"shi",
+
+    "cubeParas":
+    {
+      "x":0, "y":0.5, "z":0,
+      "red":225, "green":155, "blue":156, "opacity":0.5,
+      "width":1, "height":1, "depth":1
+    },
+    "floorParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":0.02, "depth":1,
+      "red":225, "green":155, "blue":156, "opacity":1
+    },
+    "backwallParas":
+    {
+      "x": 0, "y":0, "z":0, "width":1, "height":1, "rotationX":-90,
+      "red":225, "green":155, "blue":156, "opacity":1
+    },
+    "objParas":{
+      "asset": "monu_obj",
+      "mtl":"monu_mtl",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "scaleX":0.026,
+      "scaleY":0.026,
+      "scaleZ":0.026
+    },
+
+    "sbYBase":0.05
+
+  }
+
+
+}
