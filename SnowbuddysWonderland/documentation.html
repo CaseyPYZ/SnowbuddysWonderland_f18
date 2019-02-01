@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snowbuddy's Wonderland - Documentation</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" href="css/style-documentation.css">
+	<script src="../p5/p5.js"></script>
+	<script src="../p5/addons/p5.dom.js"></script>
+	<script src="../p5/addons/p5.sound.js"></script>
+</head>
+<body>
+	<div id="cnvDiv"></div>
+
+	<div id="starter">
+		<img src="img/logo-starter.svg" width="50" height="50">
+	</div>
+
+
+	<div id='title'>
+		a brief documentation
+	</div>
+
+	<!--artworks-->
+  <div class="subtitles">"software"</div>
+  <div class="sepLine">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div>
+
+	<div class="subtitles">1 - artwork</div>
+
+	<div class="blockText" id="artworks">
+		<p>Artsworks of this project serve as visualizations of different concepts, therefore are imprtant carriers of what this game
+			wants to conmmunicate with its players. The goal of visual designs of this game is to create a visually pleasing, imaginary
+			environment for the players, to talk to the childish day dreams we all had, and to bring our own imaginary little worlds to
+			our desktops and fingertips.</p>
+	</div>
+
+	<div class="subsubsubs">a - Snowbuddy</div>
+
+	<div class="blockText" id="artworks">
+		<p>The main character of this game is called Snowbuddy - a snowman-shaped little creature. Inspariations of this character came
+			from <a href="http://i6.cims.nyu.edu/~yp947/InteractiveComputing/week10/">my last VR mini project</a> with the same name as
+			this Ar project. In that VR game featuring relaxation and exploration, a group of Snowbuddys live on a cold peaceful planet I
+			created that's always covered in snow. I really like their look and how they wonder around on their home planet, so I thought,
+			I could actually bring them a step further into real life by adapting a more reality-integrated digital form - AR. In this way,
+			a Snowbuddy came leave its motherplanet and live on the user's desk.</p>
+	</div>
+
+	<div class="singleImg"><img src="img/screenshots/snowbuddyVR.png" width="80%"></div>
+	<div class="footnotes"> Snowbuddies & their home planet in VR</div>
+
+
+	<div class="singleImg"><img src="img/screenshots/04.png" width="80%"></div>
+	<div class="footnotes"> A Snowbuddy in a cube in AR - photo from testing stage </div>
+
+	<div class="blockText" id="artworks">
+		<p>And that's how the main character of this game, Snowbuddy, came into being. It's a simple 3D character composed of 2 spheres,
+			the bigger one as its body and smaller one as its head. Our game will be about how it lives in and travels between the different
+			cubic worlds - Miniverses.</p>
+	</div>
+
+
+	<div class="subsubsubs">b - Miniverses</div>
+
+	<div class="blockText" id="artworks">
+		<p>before that. . . a little more about the theme.</p>
+		<p>Each of the 9 cubes (or, in the volcabulary of this project, "miniverses") will have its own "theme element", and all visual
+			elements and audio elements will be built and chosen around this theme. For theme elements of the first 5 cubes, I chose the
+			"5 basic elements" of Chinese traditional philosophy named "五行" (wǔ xíng), which can be roughly translated to "five elements"
+			or "five phases". "五行" includes "金" (jīn) - Metal,  "木" (mù) - Wood, "水" (shuǐ) - Water, "火" (huǒ) - Fire, "土" (tǔ) - "Earth",
+			and each of them has one or the other relationship with other elements -- either "相生" - mutual generation, or "相克" - mutual
+			overcoming. More details introduction can be found here on the <a href="https://en.wikipedia.org/wiki/Wu_Xing">Wikipedia page
+			of Wu Xing</a>. In general, the "five phases" system is a crutial part of Taoism and traditional Chinese philosophy popular
+			among the people before modern science came into being. Till this day, it still has an impact on people's daily lives, for
+			example, when discussing Feng Shui or coming up with a new bady's name.  </p>
+	</div>
+
+  <!-- images explaining 五行 from wiki -->
+  <div class="multiImg">
+		<img class="doubleImg" src="img/wuxing1.jpg" width="100%">
+		<img class="doubleImg" src="img/wuxing2.png" width="100%">
+	</div>
+
+  <div class="footnotes">the "five phases" and their mutual relationships [source: wiki]</div>
+
+	<div class="blockText" id="artworks">
+  <p>Other than these 5 basic cubes, I came up with theme elements for the other 4 cubes as well: "明"(míng) - brightness, "暗"(àn)
+		- darkness, "虚"(xū) - virtuality, "实"(shí) - reality. These 4 cubes together with the 5 basic cubes specified earlier will
+		form the 9 basic Miniverses of this games. Our main character, a snowman-shaped creature, Snowbuddy, will be able to live in
+		or travel between these miniverses. On top of these 9 functional cubes, there will also be a tenth quasi-Miniverse that serves
+		as a starting page for this game. It will have the game's title initials "SBW" in the air and a Snowbuddy wandering around
+		below it.</p>
+
+		<p>For clarity, I used corresponing Chinese characters for the 9 Miniverses's marker graphics, and the hiro marker for our
+			starting page.</p>
+	</div>
+
+		<!-- 10 marker images -->
+	  <div class="multiImg">
+			<img class="markerImg" src="marker_images/jin.png">
+			<img class="markerImg" src="marker_images/mu.png">
+			<img class="markerImg" src="marker_images/shui.png">
+			<img class="markerImg" src="marker_images/huo.png">
+			<img class="markerImg" src="marker_images/tu.png">
+		</div>
+		<div class="multiImg">
+			<img class="markerImg" src="marker_images/ming.png">
+			<img class="markerImg" src="marker_images/an.png">
+			<img class="markerImg" src="marker_images/xu.png">
+			<img class="markerImg" src="marker_images/shi.png">
+			<img class="markerImg" src="marker_images/hiro.png">
+		</div>
+		<div class="footnotes">Marker images</div>
+
+		<div class="blockText" id="artworks">
+	  <p><a href="https://www.mobilefish.com/services/pattern_marker_generator/pattern_marker_generator.php">Mobilefish's online
+			Augmented reality pattern marker generator toolkit</a> is a very helpful tool for generating pattern files for your custom
+			markers. My project benefited a lot from this toolkit ↓</p>
+		</div>
+
+		<div class="singleImg"><img src="img/screenshots/07.png" width="80%"></div>
+	  <div class="footnotes"> Generating my custom marker patterns with Mobilefish's toolkit </div>
+
+		<div class="singleImg"><img src="img/screenshots/08.png" width="80%"></div>
+		<div class="footnotes"> Testing my new custom markers </div>
+
+	<div class="subsubs">now, back to artworks</div>
+
+	<div class="blockText" id="artworks">
+		<p>Main scenery of each Miniverses will be created by a custom 3D model, designed and built with each of their own
+			unique theme element in mind. For 3D modeling, I used a software called <a href="http://www.voxelmade.com/magicavoxel/">
+			MagicaVoxel</a> created by <a href="http://www.voxelmade.com/about-me/">Thibault Simar</a>. This software is a very
+			powerful and easy-to-use tool for creating cube-based pixel-style 3D models. It has a very wide potential and fits very
+			well with my project's ideal visual style.</p>
+	</div>
+
+	<div class="singleImg"><img src="img/screenshots/11.png" width="80%"></div>
+  <div class="footnotes"> User interface of MagicaVoxel </div>
+
+	<div class="blockText" id="artworks">
+		<p>For the first stage, I create 5 OBJ models for Jin (金), Mu (木), Shui (水), Huo (火) and Tu (土) Miniverses respectively.
+			Jin featured golden, silver and other metal cubes, resonating with the "gold mine in space" image I had in mind while creating
+			it. Mu is a mini forest, with trees，bushes and fruits, creating a fairy-tale-like type of style. This is also my favorite
+			Miniverse in terms of style and completeness. Shui is a mini world of water that's both above and under water. It has a
+			water-floor, as well as flows and drops of water falling down from the ceiling. Huo is a mini world burning in flames. Tu
+			has a Gobi desert type of landscape, with soid, sand and rocks.</p>
+	</div>
+
+	<div class="multiImg">
+		<img class="modImg" src="img/screenshots/mods/hiro.png">
+		<img class="modImg" src="img/screenshots/mods/jin.png">
+		<img class="modImg" src="img/screenshots/mods/mu.png">
+	</div>
+	<div class="multiImg">
+		<img class="modImg" src="img/screenshots/mods/shui.png">
+		<img class="modImg" src="img/screenshots/mods/huo.png">
+		<img class="modImg" src="img/screenshots/mods/tu.png">
+	</div>
+	<div class="footnotes">OBJ models [ startpage, Jin, Mu, Shui, Huo, Tu ]</div>
+
+	<div class="blockText" id="artworks">
+		<p>Artworks of the first stage is all ready and have been put into use. For the second stage, I will build 3D models for
+			the other 4 Miniverses according to their respective theme elements, and also add different "movable" and "flowing"
+			visual elements to all Miniverses, to give them a more lively atmosphere. For instance, Mu (Wood) Miniverse could have
+			one or two birds that shows up from time to time, and Shui (Water) Miniverse could have a stream of sparkling water.
+			A third aspect of improvement would be adding collision detections to Miniverses based of their different models, so
+			that our Snowbuddy's movement would be constrained to non-solid parts of every Miniverse.</p>
+		<p>Improvements and images will be updated when they're done.</p>
+	</div>
+
+
+	<div class="subsubs">2 - implementation of artworks</div>
+
+	<div class="blockText" id="artworks">
+  <p>OBJ models are respectively place onto their markers, sized exactly to the size of the marker.</p>
+	</div>
+
+	<div class="singleImg"><img src="img/screenshots/10.png" width="80%"></div>
+	<div class="footnotes"> Adding a sample Minivers OBJ model to a marker</div>
+
+
+	<div class="subsubs">3 - interaction system</div>
+
+	<div class="blockText" id="artworks">
+		<p>When nothing happens, our Snowbuddy wanders around in its current Miniverse with its movement utilizing Perlin noise
+			and constrained to the range of the Miniverse.</p>
+		<p>When the corresponing key on the keyboard is pressed (1-5), and if the Miniverse that's pressed and the Miniverse that
+			it's currently in are both visible in the screen, Snowbuddy will travel to the new Miniverse. Travelling between Miniverses
+			is made possible by calculating world position differences between two markers and nudging Snowbuddy's position accordingly.</p>
+
+	</div>
+
+	<div class="vids">
+		<video width="100%" controls>
+			<source src="vid/v01.mp4" type="video/mp4" />
+				Your browser does not support the video tag :(
+		</video>
+	</div>
+	<div class="footnotes">Test video of shifting Snowbuddy from one Miniverse to another</div>
+
+	<div class="vids">
+		<video width="100%" controls>
+			<source src="vid/v03.mp4" type="video/mp4" />
+				Your browser does not support the video tag :(
+		</video>
+	</div>
+	<div class="footnotes">Test video of Snowbuddy traveling between Shui and Huo</div>
+
+
+	<!--game framework-->
+  <div class="subtitles">"hardware"</div>
+  <div class="sepLine">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div>
+  <div class="blockText" id="framework">
+    <p>For the "hardware" part of this peoject, a well-functioning and nice-looking set of printed markers is necessary.</p>
+    <p>I originally planned to have three planes forming a complete apex & 1/2 of a cube for each Miniverse, but later realized that having solid planes as backgrounds for Miniverses in a way limits the illusions they can create. Therefore, I decided to have only one base plane with the marker on it for each Miniverse. I printed the markers out at a high quality, cutted each of them out with a 0.5cm white border (to ensure they're recognizable by the camera), and glued every one of them to a piece of card board with the same size that's previously cut out.</p>
+    <p>When everything's finished, our marker set looks like this ↓</p>
+  </div>
+
+  <div class="singleImg"><img src="img/markers.jpeg" width="80%"></div>
+  <div class="footnotes">Marker Set in a good shape</div>
+
+  <div class="blockText" id="framework">
+    <p>Our current marker set works very well, markers are easy to carry around and serves their purposes perfectly. Though
+			I do plan to upgrade the plate material to something a little heavier and harder, for example, stainless steel. It would
+			also be nice to improve the print quality of the markers, since current regular print gets blurrier every time there's
+			any friction, which makes them less pretty and potentially hard to recognize for the camera. </p>
+  </div>
+
+
+	<!--'why doesn't this work??' moments-->
+	<div class="subtitles">'why doesn't this work??' moments</div>
+	<div class="sepLine">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div>
+	<div class="blockText" id="framework">
+		<p>In this section, I will document some of the main technical difficultes I encountered throughout this project, and some things I'd like to specifically point out.</p>
+	</div>
+
+	<div class="subsubs">1 - the White Cube problem</div>
+	<div class="blockText" id="framework">
+		<p>Though our current "active" Snowbuddy & Miniverse traveling system works quite well in creating the illusion of one Snowbuddy traveling around between Miniverses, my original idea was to have only one Snowbuddy, and have it move around between Miniverses and swap its parent when it travels from one Miniver to another. However, this idea was called off due to the "white cube" problem. When Snowbuddy's parent tap is swapped, supposingly it will shift its position from one Miniverses to another, but instead, after Snowbuddy disappeared from the old Miniver, a big white cube appeared in the new Miniverse. Judging from the way this white cube moves around the new Miniverse just as a Snowbuddy would (utilizing Perlin noise), this cube is our Snowbuddy. The reason Snowbuddy showed up as a white cube might lies in the library's algorithm around parent-child relation between elements or how a new child element is painted into its parent. If I'm able to fix or somehow avoid this error in the future, I would gladly switch back to my original idea of using only one Snowbuddy. Since this algorithm suits the project's story better, and would save plenty of trouble elsewhere when it comes to dealing with Snowbuddy(s). </p>
+	</div>
+
+		<div class="minititles">Snowbuddy's Gallery of Bugs</div>
+		<div class="subsepLine">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div>
+		<br>
+		<div class="multiImg">
+			<img class="doubleImgB" src="img/screenshots/05.png">
+			<img class="doubleImgB" src="img/screenshots/06.png">
+		</div>
+		<div class="footnotes">Snowbuddy showing up as a big white cube after swapping parent element</div>
+		<br>
+		<div class="subsepLine">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div>
+
+
+
+	<div class="subsubs">2 - the lost Snowbuddy</div>
+
+	<div class="blockText" id="framework">
+	<p>Though the 3-Dimensional position calculating system in Snowbuddy's travelling function works on a pretty satisfying
+		level, errors occur from time to time. Maybe caused by algorithm defects, measurment errors or perhaps system mistakes,
+		Snowbuddy sometimes behaves a little weird from time to time. It might shift from one spot to another spot all of a sudden,
+		or sometimes travels to the completely different direction, and its 3D composite model sometimes gets overdrawn by the
+		cube's 3D model. I'm pretty sure this is because the traveling function I wrote for Snowbuddy is not yet perfect. Maybe
+		it contains logical mistakes or details I overlooked. I'm still in the process of improveing it, and a refined version
+		of this method will be updated soon after problems are fixed. </p>
+	</div>
+
+	<div class="minititles">Snowbuddy's Gallery of Bugs - continued</div>
+	<div class="subsepLine">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div>
+	<br>
+	<div class="vids">
+		<video width="100%" controls>
+			<source src="vid/v02.mp4" type="video/mp4" />
+				Your browser does not support the video tag :(
+		</video>
+	</div>
+	<div class="footnotes">Test video of Snowbuddy traveling between Shui and Huo (errors occur)</div>
+	<br>
+	<div class="subsepLine">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</div>
+
+
+
+	<div id="back">
+		<img id='arrow' src="img/arrow-leftA.svg" width="50" height="50" onmouseover="hoverImg()" onmouseout="normalImg()" onclick="backToIndexPage()">
+	</div>
+
+</body>
+
+
+
+	<script type="text/javascript">
+		function hoverImg(){
+			document.getElementById('arrow').src="img/arrow-leftB.svg";
+		}
+
+		function normalImg(){
+			document.getElementById('arrow').src="img/arrow-leftA.svg";
+		}
+
+		function backToIndexPage(){
+			window.location.replace('index.html');
+		}
+
+
+	</script>
+
+
+
+</html>

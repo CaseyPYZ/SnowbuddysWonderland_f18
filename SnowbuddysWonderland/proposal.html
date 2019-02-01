@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AR Project Proposal</title>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" href="css/style-proposal.css">
+	<script src="../p5/p5.js"></script>
+	<script src="../p5/addons/p5.dom.js"></script>
+	<script src="../p5/addons/p5.sound.js"></script>
+</head>
+<body>
+	<div id="cnvDiv"></div>
+
+	<div id="starter">
+		<img src="img/logo-starter.svg" width="65" height="65">
+	</div>
+
+	<div id='title'>
+		a brief intro
+	</div>
+
+	<div id="introduction">
+
+		<p>For this project, my plan is to develop a "cube based" AR game/playset.</p>
+
+		<p>This playset is a system created by a "hardware" part and "software" part. The hardware portion will be nine 3 * 3 * 3 inch cubes (number and size might change), one side of every one of them will have a fiducial marker. When recognized by p5, on screen each cube will be given a unique little "inner world" of its size. This innerworld would be some type of environment, either natrual or scientifically artificial, 9 different types in total. When placed next to each other (or when their distance in between is within a certain range), the cubes will effect each other in a certain way. If it's not too ambitious, I'd like to create a pre-modeled 3D character to "live" in this cube-based world. Its movements would be controled by a input source (keyboard / joystick / ...), or it could be put on "play on itsown" mode and would then wander around in its world built by the player. </p>
+
+		<p>If what's written above could all be accomplished, then I would move on and try to see if it's possible to let users created their own customized character.</p>
+
+		<p>This is still a rather raw idea at its early stage. I'll research more to hammer out more detailed goals and progress. Visuals helping to explain the idea will be posted in a short while.</p>
+
+		<!--
+		<p>For this game project, I choose a game that I personally loved and enjoyed as a kid - <a href="https://www.silvergames.com/en/home-sheep-home">Home Sheep Home</a>.</p>
+
+		<p>This game has a theme story of helping three lost sheep - Shirley, Shaun and Timmy getting back to their home at the barn. The journey is full of barriers and puzzles waiting for the sheep to solve with each of their unique talent - Shirley is heavier and stronger, Shaun is excellent at jumping, and Timmy is tiny enough to go places the other two can't. The user can control any sheep out of the three as needed, switching between them using 1,2,3 on their keyboard, and move them around to find a way for all three sheep to get from the left side to the right side of the screen. Each level get more complicated, and when all levels are completed, everyone will be happily home.</p>
+
+		<p>This game has now been developed into a series, with <a href="https://www.silvergames.com/en/home-sheep-home-2">Home Sheep Home 2</a>, <a href="https://www.silvergames.com/en/home-sheep-home-3">Home Sheep Home 2: Lost in Space</a> and <a href="https://www.silvergames.com/en/home-sheep-home-4">Home Sheep Home 2: Lost Underground</a>, each with its unique theme and settings, yet equally appealing and entertaining. </p>
+
+		<p>In my version of the game, I plan to keep consistent with all artworks used in the series with their doodle-like eye-pleasing style. Other than this, there are two main points that I would like to focus on. The first thing would be building a 'Sheep' class, capable of producing Shirley, Shaun and Timmy each with its unique characteristic. The sheeps' abilities and the physical feedback given by surrounding object in the game will have to be carefully designed. The second thing will be designing levels with problems for the user (the three sheep) to solve. In all, collecting artworks, designing levels and the game's overall structure will be the primary focus of this stage.</p>
+
+		<p>More details will be nailed along the developing process.</p>
+
+		<a href=""></a>
+		-->
+
+	</div>
+
+	<div id="back">
+		<img id='arrow' src="img/arrow-leftA.svg" width="50" height="50" onmouseover="hoverImg()" onmouseout="normalImg()" onclick="backToIndexPage()">
+	</div>
+
+</body>
+
+	<script type="text/javascript">
+		function hoverImg(){
+			document.getElementById('arrow').src="img/arrow-leftB.svg";
+		}
+
+		function normalImg(){
+			document.getElementById('arrow').src="img/arrow-leftA.svg";
+		}
+
+		function backToIndexPage(){
+			window.location.replace('index.html');
+		}
+
+
+	</script>
+
+
+
+</html>
